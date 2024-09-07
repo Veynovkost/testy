@@ -1,0 +1,1273 @@
+body {
+    margin: 0;
+}
+.HeadPage {
+    background-color: #fff;
+   display: flex;
+   flex-wrap: wrap;
+   width: 100%;
+}
+.WrapLeftBut {
+    display: none;
+}
+@media (max-width: 500px) {
+    
+    .WrapLeft {
+       
+         display: flex;
+        flex-wrap: wrap;
+        width: 100%;
+        
+    }
+    .WrapRight {
+        display: none;
+    }
+    .losung {
+        background-image: url("./HeadPicForChildBG.png");
+        background-size: cover;
+    background-color: #fff;
+    color: #FFB72B;
+    font-family: "Playfair Display", serif;
+    font-size: 2rem;
+    font-weight: normal;
+    margin: 3rem 0;
+    padding: 0;
+    width: 100%;
+    }
+    .sublosung {
+    background-image: url("");
+    background-size: contain;
+    color: #000000;
+    font-family: "Roboto", sans-serif;
+    font-size: 1.75rem;
+    font-weight: bold;
+    width: 100%;
+    margin: 0;
+    }
+
+     .ListItem,
+     .Number,
+     .logotips {
+
+      display: none;
+        }
+
+        .minitext {
+            display: none;
+        }
+        .WrapDown {
+            display: none;
+        }
+        
+        .WrapLeftButton {
+          background-color: #000000;
+    font-family: "Roboto", sans-serif;
+    width: 20rem;
+    height: 3rem;
+    color: #fff;
+    font-size: 0.8rem;
+    border-radius:  50px;
+    
+    
+   }
+   .WrapLeftBut {
+    padding: 2.5rem 0 2.5rem 2.5rem;
+    margin: 0;
+    display: block;
+   }
+}
+
+    
+
+.Header {
+    
+    font-family: 'Inter';
+    font-size: 0.75rem;
+    min-height: 1px;
+    display: flex;
+    align-items: center;
+    margin-left: 1.5rem;
+    padding: 0.5rem 1rem;
+    width: 100%;
+    border-radius: 50px;
+    
+}
+.ListItem,
+.Number,
+.logotips {
+color: #000000;
+}
+.logotip {
+ margin-right: 16.4rem;   
+ border-radius: 50%;
+}
+
+.ListItem {
+    text-decoration: none;
+    padding-right: 2.5rem;
+    font-family: 'Inter';
+    font-size: 0.75rem;
+    font-family: "Inter", sans-serif;
+    font-style: normal;
+}
+.ListItems :hover {
+    color: #FFB72B;
+}
+.logotipy {
+    display: flex;
+    align-items: center;
+    margin-left: auto;
+}
+
+.Number {
+    padding-right: 1rem;
+    text-decoration: none;
+    font-family: 'Inter';
+font-size: 0.75rem;
+}
+.logotipy :hover {
+    color: #FFB72B;
+    border-radius: 50%;
+}
+.logotips {
+    padding-right: 0.4rem;
+}
+
+.Wrap {
+width: 100%;
+display: flex;
+}
+.WrapLeft {
+    width: 100%;
+}
+
+.picture {
+    width: 38rem;
+    height: 30rem;
+    margin-right: auto;
+    border-radius: 10px;
+}
+.losung {
+    
+    background-color: #fff;
+    color: #FFB72B;
+    font-family: "Playfair Display", serif;
+    font-size: 3.5rem;
+    font-weight: normal;
+    margin-left: 2.5rem;
+    padding: 3.625rem 0;
+    width: 100%;
+}
+.sublosung {
+    background-color: #fff;
+    color: #000000;
+    font-family: "Roboto", sans-serif;
+    font-size: 1.75rem;
+    font-weight: bold;
+    width: 32rem;
+    margin-left: 2.5rem;
+}
+.WrapDown {
+display: flex;
+align-items: center;
+margin-left: 2.5rem;
+}
+
+.minitext {
+   background-color: #fff;
+    color: #000000;
+    font-family: "Roboto", sans-serif;
+    font-weight: normal;
+    font-size: 0.75rem;
+    padding: 0 1rem 0 0;
+}
+.button {
+    background-color: #000000;
+    font-family: "Roboto", sans-serif;
+    width: 20rem;
+    height: 3rem;
+    color: #fff;
+    font-size: 0.8rem;
+    border-radius:  50px;
+}
+a :hover {
+    color: #000000;
+    background-color: #FFB72B;
+}
+
+.SecondPage {
+    background-color: #F4F5F9;
+    display: flex;
+align-items: center;
+padding-top: 1rem;
+
+}
+
+@media (max-width: 500px) {
+    .SecondPage {
+        width: 100%;
+        display: flex;
+        flex-wrap: wrap;
+        background-color: #fff;
+        
+    }
+    .SecRightBlock {
+        width: 100%;
+        margin: 0;
+        background-color: #fff;
+    }
+    .SecRight {
+        margin: 0;
+        
+    }
+    .SecSubRight {
+        margin: 0;
+        background-color: #fff;
+    }
+    .imgStayHome {
+        display: none;
+        
+    }
+    .SecButton {
+        display: none;
+    }
+    
+    .SecHeadText1, .SecHeadText2 {
+        display: none;
+    }
+   
+    .SecSubHeadText1, .SecSubHeadText2 {
+        display: none;
+    }
+    .book_glass {
+        width: 20rem;
+
+    }
+  
+}
+
+.imgStayHome {
+    padding-bottom: 1rem;
+}
+.SecSubRight {
+    background-color: #F4F5F9;
+    display: flex;
+align-items: center;
+}
+.SecLeftBlock {
+margin-right: 2rem;
+}
+.SecRight {
+    padding: 5rem 0 1rem 2.5rem;
+    margin-right: auto;
+}
+.SecLeft {
+    margin-left: 2.5rem;
+}
+.SecHeadText1, .SecHeadText2, .SecHeadText3, .SecHeadText4 {
+    
+    font-size: 1.75rem;
+    font-family: "Roboto", sans-serif;
+    color: #000000;
+}
+.SecBut {
+   background-color: #FFB72B;
+   border-radius: 50px;
+   display: flex;
+   align-items: center;
+   justify-content: center;
+   min-height: 5rem;
+   width: 100%;
+}
+.SecButton {
+    background-color: #000000;
+    font-family: "Roboto", sans-serif;
+    width: 20rem;
+    height: 3rem;
+    color: #F4F5F9;
+    font-size: 0.8rem;
+    border-radius:  50px;
+}
+
+a :hover {
+    background-color: #FFB72B;
+    
+}
+
+.ThirdPage {
+   display: flex;
+   align-items: center;
+   
+   background-color: #FFB72B;
+   border-radius: 10px;
+}
+.ThirdLeft {
+    margin: 1rem 2.5rem;
+    background-color: #FFB72B;
+}
+.ThirdRight {
+    margin-left: auto;
+    background-color: #FFB72B;
+    padding-right: 6rem;
+    
+
+}
+.ThirdTextTop {
+    
+    font-size: 3.5rem;
+    font-family: "Roboto", sans-serif;
+    color: #F4F5F9;
+    background-color: #FFB72B;
+}
+.ThirdTextDown {
+    font-size: 3.5rem;
+    font-family: "Roboto", sans-serif;
+    color: #000000;
+    background-color: #FFB72B;
+}
+.ThirdLeftPicture {
+    margin-top: 1rem;
+    background-color: #FFB72B;
+    width: 28rem;
+}
+.ThirdRightPicture {
+    background-color: #FFB72B;
+    width: 100%;
+}
+@media (max-width: 500px) {
+  .ThirdPage {
+    width: 100%;
+        display: flex;
+        flex-wrap: wrap;
+        margin: 2rem 0;
+  }
+
+  .ThirdTextTop {
+    
+    font-size: 2rem;
+    font-family: "Roboto", sans-serif;
+    color: #F4F5F9;
+    background-color: #FFB72B;
+}
+.ThirdTextDown {
+    font-size: 2rem;
+    font-family: "Roboto", sans-serif;
+    color: #000000;
+    background-color: #FFB72B;
+}
+
+  .ThirdRight {
+    display: none;
+  }
+  .ThirdLeft {
+    width: 100%;
+    
+        color: #FFB72B;
+        font-family: "Playfair Display", serif;
+        font-size: 2rem;
+  }
+  .ThirdLeftPicture {
+    margin-top: 1rem;
+    background-color: #FFB72B;
+    width: 20rem;
+}
+}
+
+.ForthPage {
+    width: 100%;
+    
+}
+
+.ForthTopBlock {
+    font-family: "Playfair Display", serif;
+    font-weight: normal;
+    font-size: 3.5rem;
+    padding: 5rem 0 3.75rem 2.5rem;
+    background-color: #000000;
+    border-radius: 10px 10px 0 0px;
+}
+.FTBHeadTextTop {
+    color: #fff;
+    background-color: #000000;
+}
+.FTBHeadTextBottom {
+color: #FFB72B;
+background-color: #000000;
+}
+.ForthBottomBlock {
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    padding: 2.5rem;
+    background-color: #000000;
+    
+}
+
+.ForthBottomBlockItems {
+   padding: 1.94rem 3.25rem;
+   margin-right: 2.5rem;
+   border-radius: 10px;
+   width: 23.5rem;
+   background-color: #fff;
+}
+.FBBTopText {
+    background-color: #fff;
+    font-family: "Roboto", sans-serif;
+    font-size: 1.75rem;
+    font-weight: normal;
+    margin: 1rem 0;
+}
+.FBBBottomText {
+    background-color: #fff;
+    font-family: "Roboto", sans-serif;
+    font-size: 0.75rem;
+    font-weight: normal;
+}
+@media (max-width: 500px) {
+    
+        .ForthPage {
+        width: 100%;
+        display: flex;
+        flex-wrap: wrap;
+        }
+        .ForthTopBlock {
+            font-family: "Playfair Display", serif;
+            font-weight: normal;
+            font-size: 2rem;
+            width: 100%;
+            background-color: #000000;
+            border-radius: 10px 10px 0 0px;
+        }
+        .ForthBottomBlock {
+            display: flex;
+            flex-direction: column;
+            padding: 1rem;
+            background-color: #000000;
+            width: 100%;
+        }
+        .ForthBottomBlockItems {
+            margin: 0 0 1rem 0;
+            border-radius: 10px;
+            width: 15rem;
+            background-color: #fff;
+         }
+}
+.FifthPage {
+    background-color: #000000;
+}
+
+.FifthBottomBlock {
+    background-color: #000000;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+}
+.fifthpicitem {
+    background-color: #000000;
+    margin: 2.5rem 1.5rem 3.125rem 0;
+    width: 14rem;
+}
+.FifthTopText {
+    background-color: #000000;
+    color: #fff;
+    font-family: "Playfair Display", serif;
+    font-weight: normal;
+    font-size: 3.5rem;
+    margin-left: 27rem;
+}
+.FifthBottomText {
+    background-color: #000000;
+    color: #FFB72B;
+    font-family: "Playfair Display", serif;
+    font-weight: normal;
+    font-size: 3.5rem;
+    margin-left: 27rem;
+}
+
+@media (max-width: 500px) {
+    
+    .FifthPage {
+   
+   display: flex;
+   flex-wrap: wrap;
+    width: 100%;
+    }
+
+    .FifthTopText {
+        background-color: #000000;
+        color: #fff;
+        font-family: "Playfair Display", serif;
+        font-weight: normal;
+        font-size: 2rem;
+        margin-left: 2rem;
+        padding-top: 2rem;
+    }
+    .FifthBottomText {
+        background-color: #000000;
+        color: #FFB72B;
+        font-family: "Playfair Display", serif;
+        font-weight: normal;
+        font-size: 2rem;
+        margin-left: 2rem;
+    }
+    .FifthTopBlock {
+        display: flex;
+        flex-wrap: wrap;
+        
+    }
+    .FifthBottomBlock {
+    background-color: #000000;
+     display: flex;
+    flex-wrap: wrap;
+    width: 100%;
+        }
+}
+
+
+.SixthPage {
+    width: 100%;
+    background-color: #000000;
+    padding-bottom: 5rem;
+    border-radius: 0 0 10px 10px;
+}
+@media (max-width: 500px) {
+    
+    .SixthPage {
+    width: 100%;
+    display: flex;
+    flex-wrap: wrap;
+    }
+    .SixthTopBlock {
+        font-family: "Playfair Display", serif;
+        font-weight: normal;
+        font-size: 2rem;
+        width: 100%;
+        background-color: #000000;
+        border-radius: 10px 10px 0 0px;
+    }
+    .SixthBottomBlock {
+        display: flex;
+        flex-wrap: wrap;
+        background-color: #000000;
+        width: 15rem;
+    }
+    .SixthBottomBlockItems {
+        margin: 0 auto 1rem 2rem;
+        border-radius: 10px;
+        
+        background-color: #fff;
+    }    
+}
+.SixthTopBlock {
+    font-family: "Playfair Display", serif;
+    font-weight: normal;
+    font-size: 3.5rem;
+    padding: 5rem 0 3.75rem 2.5rem;
+    background-color: #000000;
+    border-radius: 0px 10px 0 0px;
+}
+.STBTopText{
+    color: #fff;
+    background-color: #000000;
+}
+.STBBottomText {
+color: #FFB72B;
+background-color: #000000;
+}
+.SixthBottomBlock {
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    padding: 2.5rem;
+    margin-left: 2.5rem;
+    background-color: #000000;
+    
+}
+
+.SixthBottomBlockItems {
+   padding: 1.94rem 3.125rem;
+   margin-right: 2.5rem;
+   border-radius: 10px;
+   width: 23.5rem;
+   background-color: #fff;
+}
+.SBBTopText {
+    background-color: #fff;
+    font-family: "Roboto", sans-serif;
+    font-size: 1.75rem;
+    font-weight: normal;
+    margin: 1rem 0;
+}
+.SBBBottomText {
+    background-color: #fff;
+    font-family: "Roboto", sans-serif;
+    font-size: 0.75rem;
+    font-weight: normal;
+}
+.SBBButton {
+    background-color: #000000;
+    font-family: "Roboto", sans-serif;
+    width: 18rem;
+    height: 3rem;
+    color: #F4F5F9;
+    font-size: 0.8rem;
+    border-radius:  50px;
+    margin-top: 2.2rem;
+}
+
+.SeventhPage {
+    background-color: #fff;
+    display: flex;
+    flex-wrap: wrap;
+}
+
+@media (max-width: 500px) {
+    .SeventhPage {
+        display: flex;
+        flex-wrap: wrap;
+       width: 100%;
+    }
+
+    .SeventhLeftBlock {
+        background-color: #fff;
+        padding: 0;
+        margin: 0;
+        display: flex;
+        flex-wrap: wrap;
+        width: 100%;
+    }
+    .SeventhRightBlock {
+        background-color: #fff;
+        padding: 0;
+        margin: 0;
+        display: flex;
+        flex-wrap: wrap;
+        width: 100%;
+    }
+
+    
+    .SLBLeftPicth {
+        margin-right: 1rem;
+        width: 100%;
+    }
+    .SLBRightPicth {
+    display: none;
+    }
+    .SRBLeftPicth {
+        width: 5rem;
+        margin-left: 1rem;
+        margin-bottom: 1rem;
+    }
+    .SRBRightPicth {
+    width: 5rem;
+    margin-left: 1rem;
+    }
+    .SLBTextBlock {
+        background-color: #fff;
+        padding: 0;
+        margin-left: 0;
+        width: 100%;
+    }
+    .SLBTopText {
+        background-color: #fff;
+        color: #000000;
+        font-family: "Playfair Display", serif;
+        font-weight: normal;
+        font-size: 2rem;
+        
+        
+    }
+    .SLBBottomText{
+        background-color: #fff;
+        color: #FFB72B;
+        font-family: "Playfair Display", serif;
+        font-weight: normal;
+        font-size: 2rem;
+        width: 100%;
+    }
+}
+
+.SeventhLeftBlock {
+    background-color: #fff;
+    padding: 2rem 0 3rem 0;
+}
+.SeventhRightBlock {
+    display: flex;
+    align-items: center;
+    background-color: #fff;
+}
+.SLBLeftPicthBlock {
+    display: flex;
+    align-items: end;
+    background-color: #fff;
+    padding-left: 2.5rem;
+}
+
+.SLBLeftPicth {
+    
+    width: 16rem;
+}
+.SLBRightPicth {
+margin-left: auto;
+width: 16rem;
+margin-right: 1.5rem;
+}
+.SRBLeftPicth {
+    width: 22.5rem;
+    margin-right: 1.5rem; 
+}
+.SRBRightPicth {
+width: 21rem;
+}
+.SLBTextBlock {
+    background-color: #fff;
+    padding: 1rem 0;
+    margin-left: 2.5rem;
+}
+.SLBTopText {
+    background-color: #fff;
+    color: #000000;
+    font-family: "Playfair Display", serif;
+    font-weight: normal;
+    font-size: 3.5rem;
+    
+}
+.SLBBottomText{
+    background-color: #fff;
+    color: #FFB72B;
+    font-family: "Playfair Display", serif;
+    font-weight: normal;
+    font-size: 3.5rem;
+}
+
+.EightthPage {
+    background-color: #fff;
+    width: 100%;
+    margin: 2.5rem 0;
+}
+
+@media (max-width: 500px) {
+    .EightthPage {
+        display: flex;
+        flex-wrap: wrap;
+        width: 100%;
+    }
+    .EightthPageTopBlock {
+        background-color: #fff;
+        margin-left: 1rem;
+    }
+    .EightthPageBottomBlock {
+        background-color: #fff;
+        margin-left: 1rem;
+        display: flex;
+        flex-wrap: wrap;
+        padding: 1rem 0; 
+    }
+    .EPTBTopText{
+        background-color: #fff;
+        color: #000000;
+        font-family: "Playfair Display", serif;
+        font-weight: normal;
+        font-size: 2rem;
+    }
+    .EPTBBottomText{
+        background-color: #fff;
+        color: #FFB72B;
+        font-family: "Playfair Display", serif;
+        font-weight: normal;
+        font-size: 2rem;
+    }
+    .Timur {
+        width: 100%;
+    }
+    .Hady {
+        width: 100%;
+    }
+}
+
+.EightthPageTopBlock {
+    background-color: #fff;
+    margin-left: 2.5rem;
+}
+.EightthPageBottomBlock {
+    background-color: #fff;
+    margin-left: 2.5rem;
+    display: flex;
+    align-items: center;
+    padding: 3rem 0; 
+}
+.EPTBTopText{
+    background-color: #fff;
+    color: #000000;
+    font-family: "Playfair Display", serif;
+    font-weight: normal;
+    font-size: 3.5rem;
+}
+.EPTBBottomText{
+    background-color: #fff;
+    color: #FFB72B;
+    font-family: "Playfair Display", serif;
+    font-weight: normal;
+    font-size: 3.5rem;
+}
+
+.NinePage {
+    background-color: #FFB72B;
+    width: 80rem;
+    height: 20rem;
+    display: flex;
+    align-items: center;
+    padding: 5rem 0;
+    border-radius: 10px;
+    margin-left: 2.5rem;
+    margin-right: 2.5rem;
+    margin-bottom: 5rem;
+}
+
+@media (max-width: 500px) {
+    .NinePage {
+        display: flex;
+        flex-wrap: wrap;
+        width: 100%;
+        padding: 5rem 0;
+        margin: 2rem 0 0 0;
+    }
+    .NinePageLeftBlock {
+        margin-left: 1rem;
+        background-color: #FFB72B;
+        color: #000000;
+        font-family: "Roboto", sans-serif;
+        font-weight: normal;
+        font-size: 2rem;
+        width: 100%;
+        display: flex;
+        flex-wrap: wrap;
+    }
+    .NPLBItems {
+        background-color: #FFB72B;
+        width: 100%;
+        
+    }
+    .NinePageRightBlock {
+    display: none;
+    }
+    .NPBBButton {
+        display: none;
+    }
+    
+    .NPBLButton  {
+        background-color: #000000;
+        font-family: "Roboto", sans-serif;
+        width: 20rem;
+        height: 3rem;
+        margin-top: 5rem;
+        color: #F4F5F9;
+        font-size: 0.8rem;
+        border-radius:  50px;
+        display: block;
+    }
+    .NineButLeft {
+    margin-top: 2rem;
+    }
+}    
+.NinePageLeftBlock {
+    margin-left: 2.5rem;
+    background-color: #FFB72B;
+    color: #000000;
+    font-family: "Roboto", sans-serif;
+    font-weight: normal;
+    font-size: 3rem;
+    width: 100%;
+}
+.NPLBItems {
+    background-color: #FFB72B;
+    
+}
+.NinePageRightBlock {
+margin-left: 2.5rem;
+background-color: #FFB72B;
+display: flex;
+align-items: center;
+width: 100%;
+}
+.NPBLButton {
+    display: none;
+}
+.NPBRButton {
+    background-color: #000000;
+    font-family: "Roboto", sans-serif;
+    width: 20rem;
+    height: 3rem;
+    color: #F4F5F9;
+    font-size: 0.8rem;
+    border-radius:  50px;
+    
+}
+.NineButLeft {
+    background-color: #FFB72B;
+    margin-left: 10rem;
+}
+
+.TenthPage {
+    background-color: #000000;
+    display: flex;
+    align-items: center;
+    border-radius: 10px 10px 0 0;
+}
+
+@media (max-width: 500px) {
+    .TenthPage {
+        display: flex;
+        flex-wrap: wrap;
+        width: 100%;
+        padding: 0rem;
+        margin: 2rem 0 0 0;
+        border-radius: 10px 10px 0 0;
+    }
+    
+    .Map {
+        display: none;
+    }
+    .TenthPageRightBlock {
+      display: none;
+    
+    }
+    .TenthPageLeftBlock {
+        width: 100%;
+        margin: 0;
+        background-color: #000000;
+        padding: 2rem 0;
+        
+    }
+    .TenthPageIcons {
+        background-color: #000000;
+        color: #FFB72B;
+        border-radius: 10px;
+        margin: 0.625rem;
+
+    }
+    
+    .TenthPageIconsBlock {
+        width: 100%;
+        display: flex;
+        flex-wrap: wrap;
+        background-color: #000000;
+        margin: 0;
+    }
+    
+    .arrow {
+        width: 2rem;
+        height: 2rem;
+        background-color: #000000;
+        
+    }
+    .ArrowBox {
+        background-color: #000000;
+        border: solid #fff 1px;
+        width: 2rem;
+        height: 2rem;
+        margin-left: 1rem;
+        margin-bottom: 3rem;
+    }
+    
+    
+    .TPLBTopText {
+        background-color: #000000;
+        color:#fff ;
+        font-family: "Playfair Display", serif;
+        font-weight: normal;
+        font-size: 2rem;
+    }
+    .TPLBBottomText {
+        background-color: #000000;
+        color:#FFB72B ;
+        font-family: "Playfair Display", serif;
+        font-weight: normal;
+        font-size: 2rem;
+    }
+    .TPLBAdress {
+        background-color: #000000;
+        color:#fff ;
+        font-family: "Playfair Display", serif;
+        font-weight: normal;
+        font-size: 1.75rem; 
+    }
+    .politic {
+        margin: 5rem 0 0 0;
+        color: #ffffff;
+        font-family: "Roboto", sans-serif;
+        font-weight: normal;
+        font-size: 1rem;
+        text-decoration: none;
+        width: 100%;
+        display: flex;
+        flex-wrap: wrap;
+        opacity: 40%;
+        
+  }
+}
+
+.TenthPageLeftBlock {
+    margin: 0 2.5rem;
+    width: 43.75rem;
+    background-color: #000000;
+}
+.TenthPageRightBlock {
+    background-color: #000000;
+margin: 5rem;
+display: flex;
+align-items: center;
+}
+.TenthPageIcons {
+    background-color: #000000;
+    color: #FFB72B;
+    border-radius: 10px;
+    margin-right: 0.625rem;
+}
+
+.TenthPageIconsBlock {
+    display: flex;
+    align-items: center;
+    background-color: #000000;
+    margin: 1rem 0;
+}
+
+.arrow {
+    width: 2rem;
+    height: 2rem;
+    background-color: #000000;
+    
+}
+.ArrowBox {
+    background-color: #000000;
+    border: solid #fff 1px;
+    width: 2rem;
+    height: 2rem;
+    margin-left: 2rem;
+    margin-bottom: 3rem;
+}
+
+.Map {
+    width: 35rem;
+    height: 25rem;
+    border-radius: 20px;
+}
+.TPLBTopText {
+    background-color: #000000;
+    color:#fff ;
+    font-family: "Playfair Display", serif;
+    font-weight: normal;
+    font-size: 3.5rem;
+}
+.TPLBBottomText {
+    background-color: #000000;
+    color:#FFB72B ;
+    font-family: "Playfair Display", serif;
+    font-weight: normal;
+    font-size: 3.5rem;
+}
+.TPLBAdress {
+    background-color: #000000;
+    color:#fff ;
+    font-family: "Playfair Display", serif;
+    font-weight: normal;
+    font-size: 1.75rem; 
+}
+
+.hamburger-menu {
+    display: none;
+}
+
+@media (max-width: 500px) {
+    .hamburger-menu {
+        display: block;
+        width: 100%;
+    }
+    .menu__btn {
+  
+        display: flex;
+      
+        align-items: center;
+    
+        position: fixed;
+        margin-left: 20rem;
+      
+        top: 20px;
+      
+        left: 20px;
+      
+        width: 26px;
+      
+        height: 26px;
+      
+      
+        cursor: pointer;
+      
+        z-index: 1;
+      
+      }
+}
+
+#menu__toggle {
+
+    opacity: 0;
+  
+  }
+  
+  #menu__toggle:checked ~ .menu__btn > span {
+  
+    transform: rotate(45deg);
+  
+  }
+  
+  #menu__toggle:checked ~ .menu__btn > span::before {
+  
+    top: 0;
+  
+    transform: rotate(0);
+  
+  }
+  
+  #menu__toggle:checked ~ .menu__btn > span::after {
+  
+    top: 0;
+  
+    transform: rotate(90deg);
+  
+  }
+  
+  #menu__toggle:checked ~ .menu__box {
+  
+    visibility: visible;
+  
+    left: 0;
+  
+  }
+  
+  .menu__btn {
+  
+    display: flex;
+  
+    align-items: center;
+
+  
+    position: fixed;
+  
+    top: 20px;
+  
+    left: 20px;
+  
+    width: 26px;
+  
+    height: 26px;
+  
+  
+    cursor: pointer;
+  
+    z-index: 1;
+  
+  }
+  
+  .menu__btn > span,
+  
+  .menu__btn > span::before,
+  
+  .menu__btn > span::after {
+  
+    display: block;
+  
+    position: absolute;
+  
+    width: 100%;
+  
+    height: 2px;
+  
+    background-color: #333333;
+  
+    transition-duration: .25s;
+  
+  }
+  
+  .menu__btn > span::before {
+  
+    content: '';
+  
+    top: -8px;
+  
+  }
+  
+  .menu__btn > span::after {
+  
+    content: '';
+  
+    top: 8px;
+  
+  }
+  
+  .menu__box {
+  
+    display: block;
+  
+    position: fixed;
+  
+    visibility: hidden;
+  
+    top: 0;
+  
+    left: -100%;
+  
+    width: 300px;
+  
+    height: 100%;
+  
+    margin: 0;
+  
+    padding: 80px 0;
+  
+    list-style: none;
+  
+    background-color: #fff;
+  
+    box-shadow: 1px 0px 6px rgba(0, 0, 0, .2);
+  
+    transition-duration: .25s;
+  
+  }
+  
+  .menu__item {
+  
+    display: block;
+  
+    padding: 12px 24px;
+  
+    color: #333;
+  
+    font-size: 20px;
+  
+    font-weight: 600;
+  
+    text-decoration: none;
+  
+    transition-duration: .25s;
+  
+  }
+  
+  .menu__item:hover {
+  
+    background-color: #FFDEC0;
+  
+  }
+
+  .politic {
+    margin: 5rem 0 0 0;
+    color: #ffffff;
+    font-family: "Roboto", sans-serif;
+    font-weight: normal;
+    font-size: 1rem;
+    text-decoration: none;
+    width: 100%;
+    display: flex;
+    flex-wrap: wrap;
+    opacity: 40%;
+    
+}
