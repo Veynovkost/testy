@@ -14,7 +14,11 @@ body {
     
 @media (max-width: 500px) {
     
- 
+    .Header {
+        display: flex;
+        flex-wrap: wrap;
+        width: 100%;
+    }
     .WrapLeft {
        
          display: flex;
@@ -67,7 +71,6 @@ body {
      padding: 0 0 0.5rem 2.5rem;
      margin: 0;
      display: block;
-     width: 100%;
  }      
     .WrapLeftButton {
      background-color: #000000;
@@ -78,7 +81,7 @@ body {
      font-size: 0.8rem;
      border-radius:  50px;
      
-    width: 100%;
+
     }
 }
 .Header {
